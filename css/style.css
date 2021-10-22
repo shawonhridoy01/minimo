@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 120rem;
+    margin:0 auto;
+}
+
+/* global css  */
+.wrapper{
+    width: 107rem;
+    margin: 0 auto;
+}
+
+/* end global css  */
+
+/* custom css  */
+header{
+
+
+}
+nav{
+    padding: 4.6rem 0;
+}
+.logo{
+    width: 130px;
+    float: left;
+}
+.logo h1{
+    font-size: 3rem;
+    font-family: 'Inconsolata', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.menu{
+    width: 640px;
+    float: right;
+    overflow: hidden;
+}
+.menu li{display: inline-block;margin-left: 12rem;}
+.menu li:first-child{margin-left: 0;}
+.menu li a{text-decoration: none;font-size: 1.4rem;font-weight: 400;text-transform: uppercase;color: #acacac;font-family: 'Playfair Display', serif;transition: 0.4s ease;}
+.menu li a:hover{
+    color: #7a7575;
+}
+.menu li:last-child{
+    margin-right: 0;
+    padding-right: 0;
+}
+/* banner section  */
+#banner{
+    margin-bottom: 5rem;
+}
+
+.main-banner{
+    width: 100%;
+    height:50rem;
+    background-image: url("../images/minimo.jpg");
+    background-repeat: no-repeat;
+    background-position: center  center;
+    background-size: cover;
+}
+/* blog secttion start her  */
+#blog{
+    margin-bottom: 2rem;
+}
+.content{
+    padding:4rem 8rem ;
+
+}
+.content h2{color: #bdb7aa;font-size: 14px;margin-bottom: 3.5rem;text-transform: uppercase;    font-family: 'Ubuntu', sans-serif;}
+.content h1{font-family: 'Playfair Display', serif;margin-bottom: 4rem;font-weight: 400; font-size: 3rem;color: #626262;}
+.content h4{font-family: 'Ubuntu', sans-serif;text-transform: uppercase;color: #b4ad9e;}
+.content p{font-family: 'Playfair Display', serif ;color: #626262;margin-bottom: 5.5rem;font-size: 1.4rem;font-weight: 400;line-height: 2rem;}
+
+/* main blog section  */
+#main-blog{
+    margin-bottom: 5rem;
+}
+.main{
+    overflow: hidden;
+}
+.main .left-side{
+    float: left;
+    width: 45%;
+    box-sizing: border-box;
+}
+.margin{
+    margin-right:6.3rem;
+}
+.main .left-side h2{
+    margin-top: 3.1rem;
+    margin-bottom: 3.4rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family:  'Ubuntu', sans-serif;
+}
+.main .left-side h1{
+    color: #898989;
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif ;
+    margin-bottom: 3.2rem;
+}
+.main .left-side p{
+    font-family: 'Playfair Display', serif ;font-size: 14px;font-weight: 400;color: #c0c0c0;
+}
+/* newsletter  */
+#newsletter{
+    width:100%;
+    height: 30rem;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+.newsletter-content{
+    padding-top: 8rem;
+}
+.newsletter-content h2{
+    color: #333333;
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif ;
+    font-weight: 400;
+    margin-bottom: 6rem;
+}
+input[type="email"]{
+    border: none;
+    border-bottom: 3px solid #000;
+    background-color: #f0f0f0;
+    width: 40rem;
+    display: inline-block;
+    outline: none;
+    padding-bottom: 1.5rem;
+}
+input::placeholder{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif ;
+    color: #9b8f8f;
+}
+.newsletter-content img{
+    margin-left: -3.4rem;
+    margin-bottom: -.5rem;
+}
+.btn{
+    margin-top: 7rem;
+    margin-bottom: 19rem;
+    text-align: center;
+}
+.btn button{
+    padding: 1.5rem 3.5rem;
+    border: 1px solid #626262;
+    font-style: 2rem;
+    font-family: 'Playfair Display', serif ;
+    text-transform: capitalize;
+    color: #626262;
+    background: whitesmoke;
+}
+/* footer  */
+footer{
+    background-color:#f0f0f0;
+    width:100%;
+    padding: 0 8rem;
+}
+.main-footer-content{
+    padding: 4.5rem;
+
+}
+.left-footer{
+    float: left;
+    width: 40%;
+}
+.left-footer h2{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #000;
+    font-family: 'Playfair Display', serif ;
+}
+.right-footer{
+    overflow: hidden;
+    height: 50%;
+}
+.right-footer ul{
+    float: right;
+}
+.right-footer ul li{
+    display: inline-block;
+}
+.right-footer ul li a{
+    
+    margin-left: 1.5rem;
+
+}
+.right-footer ul li a i{
+    color: #333333;
+}
